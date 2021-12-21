@@ -14,11 +14,12 @@
  age: int   
 
 **response:**     
+```json
 [  
     “Str”,  
     “Str”  
-]  
-
+]
+```
 ----
 
 ### EP_2
@@ -29,14 +30,15 @@
  age: int  
  salary: int  
 
-**response:**   
+**response:** 
+```json
 {'name': name,  
           'age': age,  
           'salary': salary,  
           'family': {'children': [['Alex', 24], ['Kate', 12]],  
                      'u_salary_1_5_year': salary * 4}}  
 
-
+```
 ----
 
 ### EP_3
