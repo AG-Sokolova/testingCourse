@@ -1,6 +1,6 @@
 # HW_1 - Создать запросы в Postman.
 
-### Выполнено:  
+## Выполнено:  
 Collection: [Postman_task1.postman_collection](https://github.com/AnastasiaSokolov/testingCourse/blob/postman/%D0%A1oursePostman_task1.postman_collection.json)
 
 ## Задание:
