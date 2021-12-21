@@ -163,7 +163,7 @@ Collection: [Postman_task1.postman_collection](https://github.com/AnastasiaSokol
 
 # HW_2  Postman - scripts
 ## Выполнено:
-Collection: [Postman_task2.postman_collection](https://github.com/AnastasiaSokolov/testingCourse/blob/postman/%D0%A1oursePostman_task2.postman_collection.json) 
+Collection: [Postman_task2.postman_collection](https://github.com/AnastasiaSokolov/testingCourse/blob/postman/%D0%A1oursePostman_task2.postman_collection.json)  
 Environment: [Postman_task2.postman_environment.json](https://github.com/AnastasiaSokolov/testingCourse/blob/postman/%D0%A1oursePostman_task2.postman_environment.json)
 
 ## Задание:
@@ -275,7 +275,8 @@ Environment:
 ## Задание:
 
 ### EP_1
-необходимо залогиниться  
+> необходимо залогиниться 
+>  
 **Method:** POST  
 **url:** http://162.55.220.72:5005/login  
 **request form data:** 
@@ -286,8 +287,7 @@ Environment:
 **Tests:**  
 1. Приходящий токен необходимо передать во все остальные запросы.  
 
-----
-дальше все запросы требуют наличие токена.  
+> дальше все запросы требуют наличие токена.  
 ----
 
 ### EP_2
@@ -444,10 +444,8 @@ auth_token
 **Tests:**
 1. Статус код 200
 2. Проверка структуры json в ответе.
-----
-
-**Дополнительное задание**  
-**Tests:**
+  
+**Дополнительное задание:** 
 1. получить список валют
 2. итерировать список валют
 3. в каждой итерации отправлять запрос на сервер для получения курса каждой валюты
