@@ -1,0 +1,24 @@
+// Check for code 200
+pm.test("Status code is 200", function () {
+    pm.response.to.have.status(200);
+});
+// It immutable after request is done
+// No need to reinit it in every test
+var jsonData = pm.response.json();
+var reqdata = request.data
+// Object key == test name
+// obj[key] == params to compare
+shouldBeEqual = {
+    "nameEqual": [jsonData.name, reqdata.name],
+    "ageEqual": [jsonData.age, reqdata.age],
+    "salaryEqual":[jsonData.salary, parseInt(reqdata.salary)],
+    "Salary in 1.5 year" :[jsonData.family.u_salary_1_5_year,parseInt(reqdata.salary*4)]
+}
+// cycle for all tests testName its a key , compare is a value
+for (const [testName, compare] of Object.entries(shouldBeEqual)) {
+    pm.test(testName, function () {
+        pm.expect(compare[0]).to.eql(compare[1]);
+    });
+}
+// logging family
+console.log(jsonData.family);
