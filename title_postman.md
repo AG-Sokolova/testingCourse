@@ -1,12 +1,12 @@
-# HW_1- Создать запросы в Postman.
+# HW_1 - Создать запросы в Postman.
 
-#### Задание:
+## Задание:
 
 **Protocol:** http
 **IP:** 162.55.220.72
 **Port:** 5005
 
-###### EP_1
+### EP_1
 **Method:** GET
 **EndPoint:** /get_method
 **request url params:** 
@@ -21,7 +21,7 @@
 
 ----
 
-###### EP_2
+### EP_2
 **Method:** POST
 **EndPoint:** /user_info_3
 **request form data:** 
@@ -37,9 +37,9 @@
                      'u_salary_1_5_year': salary * 4}}
 
 
-==================
+----
 
-###### EP_3
+### EP_3
 **Method:** GET
 **EndPoint:** /object_info_1
 **request url params:** 
@@ -54,9 +54,9 @@
           'daily_sleep': weight * 2.5}
 
 
-==================
+----
 
-###### EP_4
+### EP_4
 **Method:** GET
 **EndPoint:** /object_info_2
 **request url params:** 
@@ -76,9 +76,9 @@
           }
 
 
-==================
+----
 
-###### EP_5
+### EP_5
 **Method:** GET
 **EndPoint:** /object_info_3
 **request url params:** 
@@ -99,9 +99,9 @@
           }
 
 
-==================
+----
 
-###### EP_6
+### EP_6
 **Method:** GET
 **EndPoint:** /object_info_4
 **request url params:** 
@@ -115,9 +115,9 @@
           'salary': [salary, str(salary * 2), str(salary * 3)]}
 
 
-==================
+----
 
-###### EP_7
+### EP_7
 **Method:** POST
 **EndPoint:** /user_info_2
 **request form data:** 
@@ -135,22 +135,23 @@
                      'u_age': age,
                      'u_salary_5_years': salary * 4.2}
           }
-#### Выполнено:
+----
+### Выполнено:
 Collection: https://github.com/AnastasiaSokolov/testingCourse/blob/postman/%D0%A1oursePostman_task1.postman_collection.json
 
 
 # HW_2- Postman - scripts
 
-#### Задание:
+## Задание:
 
-###### EP_1
+### EP_1
 **url:** http://162.55.220.72:5005/first
 1. Отправить запрос.
 2. Статус код 200
 3. Проверить, что в body приходит правильный string.
-==================
+----
 
-###### EP_2
+### EP_2
 **url:** http://162.55.220.72:5005/user_info_3
 
 **Tests:**
@@ -166,9 +167,9 @@ Collection: https://github.com/AnastasiaSokolov/testingCourse/blob/postman/%D0%A
 10. Проверить, что salary в ответе равно salary s request (salary забрать из request.)
 11. Вывести в консоль параметр family из response.
 12. Проверить что u_salary_1_5_year в ответе равно salary*4 (salary забрать из request)
-==================
+----
 
-###### EP_3
+### EP_3
 **url:** http://162.55.220.72:5005/object_info_3
 
 **Tests:**
@@ -184,9 +185,9 @@ Collection: https://github.com/AnastasiaSokolov/testingCourse/blob/postman/%D0%A
 10. Проверить, что у параметра dog есть параметры age.
 11. Проверить, что параметр name имеет значение Luky.
 12. Проверить, что параметр age имеет значение 4.
-==================
+----
 
-###### EP_4
+### EP_4
 **url:** http://162.55.220.72:5005/object_info_4
 
 **Tests:**
@@ -211,9 +212,9 @@ Collection: https://github.com/AnastasiaSokolov/testingCourse/blob/postman/%D0%A
 19. Передать в окружение переменную age
 20. Передать в окружение переменную salary
 21. Написать цикл который выведет в консоль по порядку элементы списка из параметра salary.
-==================
+----
 
-###### EP_5
+### EP_5
 **url:** http://162.55.220.72:5005/user_info_2
 
 **Tests:**
@@ -239,15 +240,16 @@ Collection: https://github.com/AnastasiaSokolov/testingCourse/blob/postman/%D0%A
 20. Проверить, что что параметр u_age равен age из request (age забрать из request.)
 21. Проверить, что параметр u_salary_5_years равен salary*4.2 из request (salary забрать из request.)
 22. Написать цикл который выведет в консоль по порядку элементы списка из параметра person.
-#### Выполнено:
+----
+### Выполнено:
 Collection: https://github.com/AnastasiaSokolov/testingCourse/blob/postman/%D0%A1oursePostman_task2.postman_collection.json
 Environment: https://github.com/AnastasiaSokolov/testingCourse/blob/postman/%D0%A1oursePostman_task2.postman_environment.json
 
-# HW_3- Postman - scripts
+# HW_3 - Postman - scripts
 
-#### Задание:
+### Задание:
 
-###### EP_1
+### EP_1
 необходимо залогиниться
 **Method:** POST
 **url:** http://162.55.220.72:5005/login
@@ -258,11 +260,11 @@ password : str
 **Tests:**
 1. Приходящий токен необходимо передать во все остальные запросы.
 
-===================
+----
 дальше все запросы требуют наличие токена.
-===================
+----
 
-###### EP_2
+### EP_2
 **Method:** POST
 **url:** http://162.55.220.72:5005/user_info
 **request (RAW JSON)**
@@ -286,9 +288,9 @@ auth_token
 2. Проверка структуры json в ответе.
 3. В ответе указаны коэффициенты умножения salary, напишите тесты по проверке правильности результата перемножения на коэффициент.
 4. Достать значение из поля 'u_salary_1.5_year' и передать в поле salary запроса http://162.55.220.72:5005/get_test_user
-===================
+----
 
-###### EP_3
+### EP_3
 **Method:** POST
 **url:** http://162.55.220.72:5005/new_data
 **request (RAW JSON)**
@@ -307,9 +309,9 @@ auth_token
 2. Проверка структуры json в ответе.
 3. В ответе указаны коэффициенты умножения salary, напишите тесты по проверке правильности результата перемножения на коэффициент.
 4. проверить, что 2-й элемент массива salary больше 1-го и 0-го
-===================
+----
 
-###### EP_4
+### EP_4
 **Method:** POST
 **url:** http://162.55.220.72:5005/test_pet_info
 **request (RAW JSON)**
@@ -328,10 +330,9 @@ auth_token
 1. Статус код 200
 2. Проверка структуры json в ответе.
 3. В ответе указаны коэффициенты умножения weight, напишите тесты по проверке правильности результата перемножения на коэффициент.
+----
 
-===================
-
-###### EP_5
+### EP_5
 **Method:** POST
 **url:** http://162.55.220.72:5005/get_test_user
 **request (RAW JSON)**
@@ -353,10 +354,9 @@ auth_token
 2. Проверка структуры json в ответе.
 3. Проверить что занчение поля name = значению переменной name из окружения
 4. Проверить что занчение поля age в ответе соответсвует отправленному в запросе значению поля age
+----
 
-===================
-
-###### EP_6
+### EP_6
 **Method:** POST
 **url:** http://162.55.220.72:5005/currency
 **request (RAW JSON)**
@@ -378,10 +378,9 @@ auth_token
 **Tests:**
 1. Можете взять любой объект из присланного списка, используйте js random.
 В объекте возьмите Cur_ID и передать через окружение в следующий запрос.
+----
 
- ===================
-
-###### EP_6
+### EP_6
 **Method:** POST
 **url:** http://162.55.220.72:5005/curr_byn
 **request (RAW JSON)**
@@ -401,10 +400,10 @@ curr_code: int
 **Tests:**
 1. Статус код 200
 2. Проверка структуры json в ответе.
+----
 
-
-===============
-Дополнитльное задание
+Дополнительное задание
+----
 **Tests:**
 1. получить список валют
 2. итерировать список валют
@@ -421,7 +420,8 @@ curr_code: int
     "Date": str
 }
 7. переходим к следующей итерации
-#### Выполнено:
+----
+### Выполнено:
 Collection:
 Environment:
 
