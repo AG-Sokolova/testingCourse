@@ -7,13 +7,13 @@
 **Port:** 5005  
 
 ### EP_1
-**Method:** GET  
-**EndPoint:** /get_method  
-**request url params:**  
+- **Method:** GET  
+- **EndPoint:** /get_method  
+- **request url params:**  
  name: str    
  age: int   
 
-**response:**     
+- **response:**     
 [  
     “Str”,  
     “Str”  
@@ -114,15 +114,15 @@ name: str
           'age': int(age),  
           'salary': [salary, str(salary * 2), str(salary * 3)]}    
 
-
 ----
+
 ### EP_7  
 **Method:** POST  
 **EndPoint:** /user_info_2  
 **request form data:**   
 name: str  
- age: int  
- salary: int  
+age: int  
+salary: int  
 
 **response:**  
 {'start_qa_salary': salary,  
