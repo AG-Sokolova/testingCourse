@@ -116,7 +116,6 @@
 
 
 ----
-
 ### EP_7
 **Method:** POST
 **EndPoint:** /user_info_2
