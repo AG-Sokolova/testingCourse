@@ -29,7 +29,7 @@
  age: int  
  salary: int`  
 
-**response: **  
+**response:**  
 `{'name': name,  
           'age': age,  
           'salary': salary,  
@@ -116,7 +116,7 @@
 
 
 ----
-### EP_7
+### EP_7  
 **Method:** POST  
 **EndPoint:** /user_info_2  
 **request form data:**   
