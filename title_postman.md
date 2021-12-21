@@ -10,14 +10,14 @@
 **Method:** GET
 **EndPoint:** /get_method
 **request url params:** 
- name: str
- age: int
+ `name: str
+ age: int`
 
 **response:** 
-[
+`[
     “Str”,
     “Str”
-]
+]`
 
 ----
 
@@ -25,16 +25,16 @@
 **Method:** POST
 **EndPoint:** /user_info_3
 **request form data:** 
- name: str
+ `name: str
  age: int
- salary: int
+ salary: int`
 
 **response: **
-{'name': name,
+`{'name': name,
           'age': age,
           'salary': salary,
           'family': {'children': [['Alex', 24], ['Kate', 12]],
-                     'u_salary_1_5_year': salary * 4}}
+                     'u_salary_1_5_year': salary * 4}}`
 
 
 ----
@@ -43,15 +43,15 @@
 **Method:** GET
 **EndPoint:** /object_info_1
 **request url params:** 
- name: str
+`name: str
  age: int
- weight: int
+ weight: int`
 
 **response:** 
-{'name': name,
+`{'name': name,
           'age': age,
           'daily_food': weight * 0.012,
-          'daily_sleep': weight * 2.5}
+          'daily_sleep': weight * 2.5}`
 
 
 ----
@@ -60,12 +60,12 @@
 **Method:** GET
 **EndPoint:** /object_info_2
 **request url params:** 
- name: str
+`name: str
  age: int
- salary: int
+ salary: int`
 
 **response:** 
-{'start_qa_salary': salary,
+`{'start_qa_salary': salary,
           'qa_salary_after_6_months': salary * 2,
           'qa_salary_after_12_months': salary * 2.7,
           'qa_salary_after_1.5_year': salary * 3.3,
@@ -73,7 +73,7 @@
           'person': {'u_name': [user_name, salary, age],
                      'u_age': age,
                      'u_salary_5_years': salary * 4.2}
-          }
+          }`
 
 
 ----
@@ -82,12 +82,12 @@
 **Method:** GET
 **EndPoint:** /object_info_3
 **request url params:** 
- name: str
+`name: str
  age: int
- salary: int
+ salary: int`
 
 **response:** 
-{'name': name,
+`{'name': name,
           'age': age,
           'salary': salary,
           'family': {'children': [['Alex', 24], ['Kate', 12]],
@@ -96,7 +96,7 @@
                               'dog':{'name':'Luky',
                                      'age': 4}},
                      'u_salary_1_5_year': salary * 4}
-          }
+          }`
 
 
 ----
@@ -105,14 +105,14 @@
 **Method:** GET
 **EndPoint:** /object_info_4
 **request url params:** 
- name: str
+`name: str
  age: int
- salary: int
+ salary: int`
 
 **response:** 
-{'name': name,
+`{'name': name,
           'age': int(age),
-          'salary': [salary, str(salary * 2), str(salary * 3)]}
+          'salary': [salary, str(salary * 2), str(salary * 3)]}`
 
 
 ----
@@ -121,19 +121,19 @@
 **Method:** POST
 **EndPoint:** /user_info_2
 **request form data:** 
- name: str
+`name: str
  age: int
- salary: int
+ salary: int`
 
 **response:** 
-{'start_qa_salary': salary,
+`{'start_qa_salary': salary,
           'qa_salary_after_6_months': salary * 2,
           'qa_salary_after_12_months': salary * 2.7,
           'qa_salary_after_1.5_year': salary * 3.3,
           'qa_salary_after_3.5_years': salary * 3.8,
           'person': {'u_name': [user_name, salary, age],
                      'u_age': age,
-                     'u_salary_5_years': salary * 4.2}
+                     'u_salary_5_years': salary * 4.2}`
           }
 ----
 ### Выполнено:
@@ -254,8 +254,8 @@ Environment: https://github.com/AnastasiaSokolov/testingCourse/blob/postman/%D0%
 **Method:** POST
 **url:** http://162.55.220.72:5005/login
 **request form data:**
-login : str (кроме /)
-password : str
+`login : str (кроме /)
+ password : str`
 
 **Tests:**
 1. Приходящий токен необходимо передать во все остальные запросы.
@@ -268,20 +268,20 @@ password : str
 **Method:** POST
 **url:** http://162.55.220.72:5005/user_info
 **request (RAW JSON)**
-age: int
-salary: int
-name: str
-auth_token
+`age: int
+ salary: int
+ name: str
+ auth_token`
 
 
 **response:**
-{'start_qa_salary':salary,
+`{'start_qa_salary':salary,
  'qa_salary_after_6_months': salary * 2,
  'qa_salary_after_12_months': salary * 2.9,
  'person': {'u_name':[user_name, salary, age],
                                 'u_age':age,
                                 'u_salary_1.5_year': salary * 4}
-                                }
+                                }`
 
 **Tests:**
 1. Статус код 200
@@ -294,15 +294,15 @@ auth_token
 **Method:** POST
 **url:** http://162.55.220.72:5005/new_data
 **request (RAW JSON)**
-age: int
-salary: int
-name: str
-auth_token
+`age: int
+ salary: int
+ name: str
+ auth_token`
 
 **response:**
-{'name':name,
+`{'name':name,
   'age': int(age),
-  'salary': [salary, str(salary*2), str(salary*3)]}
+  'salary': [salary, str(salary*2), str(salary*3)]}`
 
 **Tests:**
 1. Статус код 200
@@ -315,16 +315,16 @@ auth_token
 **Method:** POST
 **url:** http://162.55.220.72:5005/test_pet_info
 **request (RAW JSON)**
-age: int
-weight: int
-name: str
-auth_token
+`age: int
+ weight: int
+ name: str
+ auth_token`
 
 **response:**
-{'name': name,
+`{'name': name,
  'age': age,
  'daily_food':weight * 0.012,
- 'daily_sleep': weight * 2.5}
+ 'daily_sleep': weight * 2.5}`
 
 **Tests:**
 1. Статус код 200
@@ -336,18 +336,18 @@ auth_token
 **Method:** POST
 **url:** http://162.55.220.72:5005/get_test_user
 **request (RAW JSON)**
-age: int
-salary: int
-name: str
-auth_token
+`age: int
+ salary: int
+ name: str
+ auth_token`
 
 **response:**
-{'name': name,
+`{'name': name,
  'age':age,
  'salary': salary,
  'family':{'children':[['Alex', 24],['Kate', 12]],
  'u_salary_1.5_year': salary * 4}
-  }
+  }`
 
 **Tests:**
 1. Статус код 200
@@ -363,7 +363,7 @@ auth_token
 auth_token
 
 **response:** Передаётся список массив объектов.
-[
+`[
 {"Cur_Abbreviation": str,
  "Cur_ID": int,
  "Cur_Name": str
@@ -373,7 +373,7 @@ auth_token
  "Cur_ID": int,
  "Cur_Name": str
 }
-]
+]`
 
 **Tests:**
 1. Можете взять любой объект из присланного списка, используйте js random.
@@ -384,18 +384,18 @@ auth_token
 **Method:** POST
 **url:** http://162.55.220.72:5005/curr_byn
 **request (RAW JSON)**
-auth_token
-curr_code: int
+`auth_token
+ curr_code: int`
 
 **response:**
-{
+`{
     "Cur_Abbreviation": str
     "Cur_ID": int,
     "Cur_Name": str,
     "Cur_OfficialRate": float,
     "Cur_Scale": int,
     "Date": str
-}
+}`
 
 **Tests:**
 1. Статус код 200
@@ -411,14 +411,14 @@ curr_code: int
 4. если возвращается 500 код, переходим к следующей итреации
 5. если получаем 200 код, проверяем response json на наличие поля "Cur_OfficialRate"
 6. если поле есть, пишем в консоль инфу про фалюту в виде response
-{
+`{
     "Cur_Abbreviation": str
     "Cur_ID": int,
     "Cur_Name": str,
     "Cur_OfficialRate": float,
     "Cur_Scale": int,
     "Date": str
-}
+}`
 7. переходим к следующей итерации
 ----
 ### Выполнено:
