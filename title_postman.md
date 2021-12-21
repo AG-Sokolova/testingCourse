@@ -14,7 +14,7 @@
  age: int   
 
 **response:**     
-```json
+```
 [  
     “Str”,  
     “Str”  
@@ -31,7 +31,7 @@
  salary: int  
 
 **response:** 
-```json
+```
 {'name': name,  
           'age': age,  
           'salary': salary,  
