@@ -10,10 +10,10 @@
 **Method:** GET  
 **EndPoint:** /get_method  
 **request url params:**  
- `name: str  
- age: int`  
+ `name: str    
+ age: int`   
 
-**response:**   
+**response:**    
 `[  
     “Str”,  
     “Str”  
@@ -22,121 +22,121 @@
 ----
 
 ### EP_2
-**Method:** POST
-**EndPoint:** /user_info_3
-**request form data:** 
- `name: str
- age: int
- salary: int`
+**Method:** POST  
+**EndPoint:** /user_info_3  
+**request form data:**  
+ `name: str  
+ age: int  
+ salary: int`  
 
-**response: **
-`{'name': name,
-          'age': age,
-          'salary': salary,
-          'family': {'children': [['Alex', 24], ['Kate', 12]],
-                     'u_salary_1_5_year': salary * 4}}`
+**response: **  
+`{'name': name,  
+          'age': age,  
+          'salary': salary,  
+          'family': {'children': [['Alex', 24], ['Kate', 12]],  
+                     'u_salary_1_5_year': salary * 4}}`  
 
 
 ----
 
 ### EP_3
-**Method:** GET
-**EndPoint:** /object_info_1
-**request url params:** 
-`name: str
- age: int
- weight: int`
+**Method:** GET  
+**EndPoint:** /object_info_1  
+**request url params:**  
+`name: str  
+ age: int  
+ weight: int`  
 
-**response:** 
-`{'name': name,
-          'age': age,
-          'daily_food': weight * 0.012,
-          'daily_sleep': weight * 2.5}`
+**response:**   
+`{'name': name,  
+          'age': age,  
+          'daily_food': weight * 0.012,  
+          'daily_sleep': weight * 2.5}`  
 
 
 ----
 
 ### EP_4
-**Method:** GET
-**EndPoint:** /object_info_2
-**request url params:** 
-`name: str
- age: int
- salary: int`
+**Method:** GET  
+**EndPoint:** /object_info_2  
+**request url params:**  
+`name: str  
+ age: int  
+ salary: int`  
 
 **response:** 
-`{'start_qa_salary': salary,
-          'qa_salary_after_6_months': salary * 2,
-          'qa_salary_after_12_months': salary * 2.7,
-          'qa_salary_after_1.5_year': salary * 3.3,
-          'qa_salary_after_3.5_years': salary * 3.8,
-          'person': {'u_name': [user_name, salary, age],
-                     'u_age': age,
-                     'u_salary_5_years': salary * 4.2}
-          }`
+`{'start_qa_salary': salary,  
+          'qa_salary_after_6_months': salary * 2,  
+          'qa_salary_after_12_months': salary * 2.7,  
+          'qa_salary_after_1.5_year': salary * 3.3,  
+          'qa_salary_after_3.5_years': salary * 3.8,  
+          'person': {'u_name': [user_name, salary, age],  
+                     'u_age': age,  
+                     'u_salary_5_years': salary * 4.2}  
+          }`  
 
 
 ----
 
 ### EP_5
-**Method:** GET
-**EndPoint:** /object_info_3
-**request url params:** 
-`name: str
- age: int
- salary: int`
+**Method:** GET  
+**EndPoint:** /object_info_3  
+**request url params:**  
+`name: str  
+ age: int  
+ salary: int`  
 
-**response:** 
-`{'name': name,
-          'age': age,
-          'salary': salary,
-          'family': {'children': [['Alex', 24], ['Kate', 12]],
-                     'pets': {'cat':{'name':'Sunny',
-                                     'age': 3},
-                              'dog':{'name':'Luky',
-                                     'age': 4}},
-                     'u_salary_1_5_year': salary * 4}
-          }`
+**response:**   
+`{'name': name,  
+          'age': age,  
+          'salary': salary,  
+          'family': {'children': [['Alex', 24], ['Kate', 12]],  
+                     'pets': {'cat':{'name':'Sunny',  
+                                     'age': 3},  
+                              'dog':{'name':'Luky',  
+                                     'age': 4}},  
+                     'u_salary_1_5_year': salary * 4}  
+          }`  
 
 
 ----
 
-### EP_6
-**Method:** GET
-**EndPoint:** /object_info_4
-**request url params:** 
-`name: str
- age: int
- salary: int`
+### EP_6  
+**Method:** GET  
+**EndPoint:** /object_info_4  
+**request url params:**  
+`name: str  
+ age: int  
+ salary: int`  
 
-**response:** 
-`{'name': name,
-          'age': int(age),
-          'salary': [salary, str(salary * 2), str(salary * 3)]}`
+**response:**  
+`{'name': name,  
+          'age': int(age),  
+          'salary': [salary, str(salary * 2), str(salary * 3)]}`  
 
 
 ----
 ### EP_7
-**Method:** POST
-**EndPoint:** /user_info_2
-**request form data:** 
-`name: str
- age: int
- salary: int`
+**Method:** POST  
+**EndPoint:** /user_info_2  
+**request form data:**   
+`name: str  
+ age: int  
+ salary: int`  
 
 **response:** 
-`{'start_qa_salary': salary,
-          'qa_salary_after_6_months': salary * 2,
-          'qa_salary_after_12_months': salary * 2.7,
-          'qa_salary_after_1.5_year': salary * 3.3,
-          'qa_salary_after_3.5_years': salary * 3.8,
-          'person': {'u_name': [user_name, salary, age],
-                     'u_age': age,
-                     'u_salary_5_years': salary * 4.2}`
-          }
+`{'start_qa_salary': salary,  
+          'qa_salary_after_6_months': salary * 2,  
+          'qa_salary_after_12_months': salary * 2.7,  
+          'qa_salary_after_1.5_year': salary * 3.3,  
+          'qa_salary_after_3.5_years': salary * 3.8,  
+          'person': {'u_name': [user_name, salary, age],  
+                     'u_age': age,  
+                     'u_salary_5_years': salary * 4.2}`  
+          }  
 ----
-### Выполнено:
-Collection: https://github.com/AnastasiaSokolov/testingCourse/blob/postman/%D0%A1oursePostman_task1.postman_collection.json
+### Выполнено:  
+Collection: https://github.com/AnastasiaSokolov/testingCourse/blob/postman/%D0%A1oursePostman_task1.postman_collection.json  
 
 
 # HW_2- Postman - scripts
@@ -144,14 +144,14 @@ Collection: https://github.com/AnastasiaSokolov/testingCourse/blob/postman/%D0%A
 ## Задание:
 
 ### EP_1
-**url:** http://162.55.220.72:5005/first
+**url:** http://162.55.220.72:5005/first  
 1. Отправить запрос.
 2. Статус код 200
 3. Проверить, что в body приходит правильный string.
 ----
 
 ### EP_2
-**url:** http://162.55.220.72:5005/user_info_3
+**url:** http://162.55.220.72:5005/user_info_3  
 
 **Tests:**
 1. Отправить запрос.
@@ -169,7 +169,7 @@ Collection: https://github.com/AnastasiaSokolov/testingCourse/blob/postman/%D0%A
 ----
 
 ### EP_3
-**url:** http://162.55.220.72:5005/object_info_3
+**url:** http://162.55.220.72:5005/object_info_3  
 
 **Tests:**
 1. Отправить запрос.
@@ -187,7 +187,7 @@ Collection: https://github.com/AnastasiaSokolov/testingCourse/blob/postman/%D0%A
 ----
 
 ### EP_4
-**url:** http://162.55.220.72:5005/object_info_4
+**url:** http://162.55.220.72:5005/object_info_4  
 
 **Tests:**
 1. Отправить запрос.
@@ -214,7 +214,7 @@ Collection: https://github.com/AnastasiaSokolov/testingCourse/blob/postman/%D0%A
 ----
 
 ### EP_5
-**url:** http://162.55.220.72:5005/user_info_2
+**url:** http://162.55.220.72:5005/user_info_2  
 
 **Tests:**
 1. Вставить параметр salary из окружения в request
@@ -241,7 +241,7 @@ Collection: https://github.com/AnastasiaSokolov/testingCourse/blob/postman/%D0%A
 22. Написать цикл который выведет в консоль по порядку элементы списка из параметра person.
 ----
 ### Выполнено:
-Collection: https://github.com/AnastasiaSokolov/testingCourse/blob/postman/%D0%A1oursePostman_task2.postman_collection.json
+Collection: https://github.com/AnastasiaSokolov/testingCourse/blob/postman/%D0%A1oursePostman_task2.postman_collection.json  
 Environment: https://github.com/AnastasiaSokolov/testingCourse/blob/postman/%D0%A1oursePostman_task2.postman_environment.json
 
 # HW_3 - Postman - scripts
@@ -249,40 +249,40 @@ Environment: https://github.com/AnastasiaSokolov/testingCourse/blob/postman/%D0%
 ### Задание:
 
 ### EP_1
-необходимо залогиниться
-**Method:** POST
-**url:** http://162.55.220.72:5005/login
-**request form data:**
-`login : str (кроме /)
- password : str`
+необходимо залогиниться  
+**Method:** POST  
+**url:** http://162.55.220.72:5005/login  
+**request form data:**  
+`login : str (кроме /)  
+ password : str`  
 
-**Tests:**
-1. Приходящий токен необходимо передать во все остальные запросы.
+**Tests:**  
+1. Приходящий токен необходимо передать во все остальные запросы.  
 
 ----
-дальше все запросы требуют наличие токена.
+дальше все запросы требуют наличие токена.  
 ----
 
 ### EP_2
-**Method:** POST
-**url:** http://162.55.220.72:5005/user_info
-**request (RAW JSON)**
-`age: int
- salary: int
- name: str
- auth_token`
+**Method:** POST  
+**url:** http://162.55.220.72:5005/user_info  
+**request (RAW JSON)**  
+`age: int  
+ salary: int  
+ name: str  
+ auth_token`  
 
 
-**response:**
-`{'start_qa_salary':salary,
- 'qa_salary_after_6_months': salary * 2,
- 'qa_salary_after_12_months': salary * 2.9,
- 'person': {'u_name':[user_name, salary, age],
-                                'u_age':age,
-                                'u_salary_1.5_year': salary * 4}
+**response:**  
+`{'start_qa_salary':salary,  
+ 'qa_salary_after_6_months': salary * 2,  
+ 'qa_salary_after_12_months': salary * 2.9,  
+ 'person': {'u_name':[user_name, salary, age],  
+                                'u_age':age,  
+                                'u_salary_1.5_year': salary * 4}  
                                 }`
 
-**Tests:**
+**Tests:**  
 1. Статус код 200
 2. Проверка структуры json в ответе.
 3. В ответе указаны коэффициенты умножения salary, напишите тесты по проверке правильности результата перемножения на коэффициент.
@@ -290,20 +290,20 @@ Environment: https://github.com/AnastasiaSokolov/testingCourse/blob/postman/%D0%
 ----
 
 ### EP_3
-**Method:** POST
-**url:** http://162.55.220.72:5005/new_data
-**request (RAW JSON)**
-`age: int
- salary: int
- name: str
- auth_token`
+**Method:** POST  
+**url:** http://162.55.220.72:5005/new_data  
+**request (RAW JSON)**  
+`age: int  
+ salary: int  
+ name: str  
+ auth_token`  
 
-**response:**
-`{'name':name,
-  'age': int(age),
-  'salary': [salary, str(salary*2), str(salary*3)]}`
+**response:**  
+`{'name':name,  
+  'age': int(age),  
+  'salary': [salary, str(salary*2), str(salary*3)]}`  
 
-**Tests:**
+**Tests:**  
 1. Статус код 200
 2. Проверка структуры json в ответе.
 3. В ответе указаны коэффициенты умножения salary, напишите тесты по проверке правильности результата перемножения на коэффициент.
@@ -311,19 +311,19 @@ Environment: https://github.com/AnastasiaSokolov/testingCourse/blob/postman/%D0%
 ----
 
 ### EP_4
-**Method:** POST
-**url:** http://162.55.220.72:5005/test_pet_info
-**request (RAW JSON)**
-`age: int
- weight: int
- name: str
- auth_token`
+**Method:** POST  
+**url:** http://162.55.220.72:5005/test_pet_info  
+**request (RAW JSON)**  
+`age: int  
+ weight: int  
+ name: str  
+ auth_token`  
 
-**response:**
-`{'name': name,
- 'age': age,
- 'daily_food':weight * 0.012,
- 'daily_sleep': weight * 2.5}`
+**response:**  
+`{'name': name,  
+ 'age': age,  
+ 'daily_food':weight * 0.012,  
+ 'daily_sleep': weight * 2.5}`  
 
 **Tests:**
 1. Статус код 200
@@ -332,21 +332,21 @@ Environment: https://github.com/AnastasiaSokolov/testingCourse/blob/postman/%D0%
 ----
 
 ### EP_5
-**Method:** POST
-**url:** http://162.55.220.72:5005/get_test_user
-**request (RAW JSON)**
-`age: int
- salary: int
- name: str
- auth_token`
+**Method:** POST  
+**url:** http://162.55.220.72:5005/get_test_user  
+**request (RAW JSON)**  
+`age: int  
+ salary: int  
+ name: str  
+ auth_token`  
 
-**response:**
-`{'name': name,
- 'age':age,
- 'salary': salary,
- 'family':{'children':[['Alex', 24],['Kate', 12]],
- 'u_salary_1.5_year': salary * 4}
-  }`
+**response:**  
+`{'name': name,  
+ 'age':age,  
+ 'salary': salary,  
+ 'family':{'children':[['Alex', 24],['Kate', 12]],  
+ 'u_salary_1.5_year': salary * 4}  
+  }`  
 
 **Tests:**
 1. Статус код 200
@@ -356,23 +356,23 @@ Environment: https://github.com/AnastasiaSokolov/testingCourse/blob/postman/%D0%
 ----
 
 ### EP_6
-**Method:** POST
-**url:** http://162.55.220.72:5005/currency
-**request (RAW JSON)**
-auth_token
+**Method:** POST  
+**url:** http://162.55.220.72:5005/currency  
+**request (RAW JSON)**  
+`auth_token`  
 
-**response:** Передаётся список массив объектов.
-`[
-{"Cur_Abbreviation": str,
- "Cur_ID": int,
- "Cur_Name": str
-}
-…
-{"Cur_Abbreviation": str,
- "Cur_ID": int,
- "Cur_Name": str
-}
-]`
+**response:** Передаётся список массив объектов.  
+`[  
+{"Cur_Abbreviation": str,  
+ "Cur_ID": int,  
+ "Cur_Name": str  
+}  
+…  
+{"Cur_Abbreviation": str,  
+ "Cur_ID": int,  
+ "Cur_Name": str  
+}  
+]`  
 
 **Tests:**
 1. Можете взять любой объект из присланного списка, используйте js random.
@@ -380,28 +380,28 @@ auth_token
 ----
 
 ### EP_6
-**Method:** POST
-**url:** http://162.55.220.72:5005/curr_byn
-**request (RAW JSON)**
-`auth_token
- curr_code: int`
+**Method:** POST  
+**url:** http://162.55.220.72:5005/curr_byn  
+**request (RAW JSON)**  
+`auth_token  
+ curr_code: int`  
 
-**response:**
-`{
-    "Cur_Abbreviation": str
-    "Cur_ID": int,
-    "Cur_Name": str,
-    "Cur_OfficialRate": float,
-    "Cur_Scale": int,
-    "Date": str
-}`
+**response:**  
+`{  
+    "Cur_Abbreviation": str  
+    "Cur_ID": int,  
+    "Cur_Name": str,  
+    "Cur_OfficialRate": float,  
+    "Cur_Scale": int,  
+    "Date": str  
+}`  
 
 **Tests:**
 1. Статус код 200
 2. Проверка структуры json в ответе.
 ----
 
-Дополнительное задание
+Дополнительное задание  
 ----
 **Tests:**
 1. получить список валют
@@ -410,19 +410,19 @@ auth_token
 4. если возвращается 500 код, переходим к следующей итреации
 5. если получаем 200 код, проверяем response json на наличие поля "Cur_OfficialRate"
 6. если поле есть, пишем в консоль инфу про фалюту в виде response
-`{
-    "Cur_Abbreviation": str
-    "Cur_ID": int,
-    "Cur_Name": str,
-    "Cur_OfficialRate": float,
-    "Cur_Scale": int,
-    "Date": str
-}`
+`{  
+    "Cur_Abbreviation": str  
+    "Cur_ID": int,  
+    "Cur_Name": str,  
+    "Cur_OfficialRate": float,  
+    "Cur_Scale": int,  
+    "Date": str  
+}`  
 7. переходим к следующей итерации
 ----
 ### Выполнено:
-Collection:
-Environment:
+Collection:  
+Environment:  
 
 # Дополнительно
 Пример кода для тестов - https://github.com/AnastasiaSokolov/testingCourse/blob/postman/example_1.json
