@@ -7,13 +7,13 @@
 **Port:** 5005  
 
 ### EP_1
-- **Method:** GET  
-- **EndPoint:** /get_method  
-- **request url params:**  
+**Method:** GET  
+**EndPoint:** /get_method  
+**request url params:**  
  name: str    
  age: int   
 
-- **response:**     
+**response:**     
 [  
     “Str”,  
     “Str”  
