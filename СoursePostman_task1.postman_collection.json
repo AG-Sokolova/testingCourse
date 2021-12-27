@@ -26,7 +26,7 @@
 					"query": [
 						{
 							"key": "name",
-							"value": "Анастасия"
+							"value": "Anastasia"
 						},
 						{
 							"key": "age",
@@ -47,7 +47,7 @@
 					"formdata": [
 						{
 							"key": "name",
-							"value": "Анастасия",
+							"value": "Anastasia",
 							"type": "text"
 						},
 						{
@@ -100,7 +100,7 @@
 					"query": [
 						{
 							"key": "name",
-							"value": "Анастасия"
+							"value": "Anastasia"
 						},
 						{
 							"key": "age",
@@ -136,7 +136,7 @@
 					"query": [
 						{
 							"key": "name",
-							"value": "Анастасия"
+							"value": "Anastasia"
 						},
 						{
 							"key": "age",
@@ -172,7 +172,7 @@
 					"query": [
 						{
 							"key": "name",
-							"value": "Анастасия"
+							"value": "Anastasia"
 						},
 						{
 							"key": "age",
@@ -208,7 +208,7 @@
 					"query": [
 						{
 							"key": "name",
-							"value": "Анастасия"
+							"value": "Anastasia"
 						},
 						{
 							"key": "age",
@@ -233,7 +233,7 @@
 					"formdata": [
 						{
 							"key": "name",
-							"value": "Анастасия",
+							"value": "Anastasia",
 							"type": "text"
 						},
 						{
