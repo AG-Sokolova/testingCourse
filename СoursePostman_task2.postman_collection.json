@@ -62,7 +62,7 @@
 							"\r",
 							"//Проверить, что name в ответе равно name s request (name вбить руками.)\r",
 							"pm.test(\"manually: name = Анастасия\", function () {\r",
-							"    pm.expect(jsonData.name).to.eql(\"Анастасия\");\r",
+							"    pm.expect(jsonData.name).to.eql(\"Anastasia\");\r",
 							"});\r",
 							"\r",
 							"//Проверить, что age в ответе равно age s request (age вбить руками.)\r",
@@ -113,7 +113,7 @@
 					"formdata": [
 						{
 							"key": "name",
-							"value": "Анастасия",
+							"value": "Anastasia",
 							"type": "text"
 						},
 						{
