@@ -120,7 +120,9 @@ select
 	*
 from
 	students
-where 
+where
+	"name" like '%8%'
+	and "created_on" = '2021-07-12 00:00:00';
 
 --17. Вывести пользователя у которых id равен 110
 select
