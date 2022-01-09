@@ -163,13 +163,17 @@ where
 	id < 127
 	or id > 188;
 
+
+select * from students
+	where id not between '127' and '188';
+
 --22. Вывести пользователя у которых id меньше либо равно 137
 select
 	*
 from
 	students
 where
-	id < = '137'
+	id < '137'
 	or id = '137';
 
 --23. Вывести пользователя у которых id больше либо равно 137
@@ -187,8 +191,8 @@ select
 from
 	students
 where
-	(id > '181')
-	and (id < '189');
+	id > '180'
+	and id < '190';
 
 --25. Вывести пользователя у которых id между 180 и 190
 select
