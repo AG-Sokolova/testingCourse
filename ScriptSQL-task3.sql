@@ -203,31 +203,19 @@
 		);
 
 -- 25.Вывести количество QA инженеров
-	select  count(*) as count_QA from employee_salary es 
-		inner join salary s on es.salary_id = s.id 
-		where employee_id in (
-			select employee_id from roles_employee re 
-				join roles r on re.role_id = r.id 
-				where r.role_name like '% QA %'
-		);
+	select count(*) from roles_employee re 
+		join roles r on re.role_id = r.id 
+		where r.role_name like '% QA %';
 	
 -- 26.Вывести количество Middle специалистов.
-	select  count(*) as count_Middle from employee_salary es 
-		inner join salary s on es.salary_id = s.id 
-		where employee_id in (
-			select employee_id from roles_employee re 
-				join roles r on re.role_id = r.id 
-				where r.role_name like 'Middle %'
-		);
+	select count(*) from roles_employee re 
+		join roles r on re.role_id = r.id 
+		where r.role_name like 'Middle %';
 	
 -- 27.Вывести количество разработчиков
-	select  count(*) as count_Developer from employee_salary es 
-		inner join salary s on es.salary_id = s.id 
-		where employee_id in (
-			select employee_id from roles_employee re 
-				join roles r on re.role_id = r.id 
-				where r.role_name like '% developer'
-		);
+	select count(*) from roles_employee re 
+		join roles r on re.role_id = r.id 
+		where r.role_name like '% developer';
 	
 -- 28.Вывести фонд (сумму) зарплаты разработчиков.
 	select  sum(s.monthly_salary) as sum_Developer from employee_salary es 
