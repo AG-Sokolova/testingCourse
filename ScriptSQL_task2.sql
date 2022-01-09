@@ -275,5 +275,5 @@ insert into roles_employee(employee_id, role_id) values
 
 
 
--- очичтить в BD
+-- очиcтить в BD
 drop table employee_salary;
