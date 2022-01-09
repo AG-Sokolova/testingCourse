@@ -187,8 +187,8 @@ select
 from
 	students
 where
-	(id > '180')
-	and (id < '190');
+	(id > '181')
+	and (id < '189');
 
 --25. Вывести пользователя у которых id между 180 и 190
 select
