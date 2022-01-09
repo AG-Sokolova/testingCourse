@@ -81,7 +81,6 @@
  
  # HomeWork 2. Repositories
  
- ### JSON
  1. Создать внешний репозиторий c названием JSON    
  <code>  https://github.com/  → кнопка: New  → ввести в поле "Repository name": JSON → кнопка: create Repository </code>
   
@@ -190,4 +189,53 @@
  <code> $ git pull origin main </code>  
  
  # HomeWork 3. Branch
+ 1. На локальном репозитории сделать ветку для: Postman  
+ <code> $ git branch postman </code>
  
+ 3. На локальном репозитории сделать ветку для: Jmeter  
+ <code> $ git branch jmeter </code> 
+ 
+ 5. На локальном репозитории сделать ветку для: Check Lists  
+ <code> $ git branch check-list </code>
+ 
+ 7. На локальном репозитории сделать ветку для: Bug Reports  
+ <code> $ git branch bug-report </code>
+ 
+ 9. На локальном репозитории сделать ветку для: SQL  
+ <code> $ git branch sql </code>
+ 
+ 11. На локальном репозитории сделать ветку для: Charles  
+ <code> $ git branch charles </code>
+ 
+ 13. На локальном репозитории сделать ветку для: Mobile testing  
+ <code> $ git branch mobil-testing </code>
+ 
+ 15. Запушить все ветки на внешний репозиторий  
+ <code> $ git push origin postman jmeter check-list bug-report sql charles mobil-testing </code>
+ 
+ 17. В ветке Bag Reports сделать текстовый документ со структурой баг репорта  
+ <code> перейти на ветку Bug report: $ git checkout bug-report </code>  
+ <code> создать текстовый документ: $ touch BugReportStructure.md </code>  
+ <code> внести изменения в текстовый документ: $ vim BugReportStructure.md </code>  
+ <code> сохранить изменения: esc → :wq +enter </code>
+ 
+ 19. Запушить структуру багрепорта на внешний репозиторий  
+ <code> $ git add . </code>
+ <code> $ git commit -m "add file BugReportStructure.md" </code>
+ <code> $ git push origin bug-report </code>
+ 
+ 21. Вмержить ветку Bag Reports в Main  
+ <code> $ git checkout main </code>
+ <code> $ git merge bug-report </code>
+ 
+ 23. Запушить main на внешний репозиторий  
+ <code> $ git push origin main </code>
+ 
+ 25. В ветке CheckLists набросать структуру чек листа.  
+ <code> https://github.com/  → перейти в репозиторий testingCourse → из Main перейти на ветку check-list → Add file → Create new file → ввести: CheckListStructure.md → commit new file: add file CheckListStructure.md   → кнопка: Commit new file </code>
+ 
+ 27. На внешнем репозитории сделать Pull Request ветки CheckLists в main  
+ <code> кнопка: compare & pull request → проверить ветки → Ввести комментарий "add file CheckListStructure.md" →  кнопка: create pull request  →  кнопка: merge pull request →  кнопка: Confirm merge </code>
+ 
+ 29. Синхронизировать Внешнюю и Локальную ветки Main  
+ <code> $ git pull origin main </code>
