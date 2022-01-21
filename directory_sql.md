@@ -300,15 +300,18 @@ SET book.amount = book.amount + supply.amount
 WHERE book.title = supply.title AND book.author = supply.author;</code>
   
 ## Запросы на удаление
+Запросы корректировки данных позволяют удалить одну или несколько записей из  таблицы.  
 **структура:**
   <pre><code>
   DELETE FROM таблица;
   </code></pre>
-**пример:** <code>DELETE FROM supply;</code>
-Запрос на удаления позволяет удалить не все записи таблицы, а только те, которые удовлетворяют условию, указанному после ключевого слова WHERE:
+**пример:** <code>DELETE FROM supply;</code>  
+  
+Запрос на удаления позволяет удалить не все записи таблицы, а только те, которые удовлетворяют условию, указанному после ключевого слова WHERE.  
+**структура:**
   <pre><code>
 DELETE FROM таблица WHERE условие;
-  </code></pre>
+  </code></pre>  
 **пример:** <code>DELETE FROM supply 
 WHERE title IN (
         SELECT title 
