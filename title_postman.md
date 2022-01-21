@@ -269,8 +269,8 @@ Environment: [Postman_task2.postman_environment.json](https://github.com/Anastas
 
 # HW_3 - Postman - scripts
 ## Выполнено:
-Collection:  
-Environment: 
+Collection: [CoursePostman_task3.postman_collection](https://github.com/AnastasiaSokolov/testingCourse/blob/postman/CoursePostman_task3.postman_collection.json)
+Environment: [CoursePostman_task3.postman_environment](https://github.com/AnastasiaSokolov/testingCourse/blob/postman/CoursePostman_task3.postman_environment.json)
 
 ## Задание:
 
