@@ -1,6 +1,4 @@
-# Android
-
-## HomeWork 1
+# HomeWork 1
  1. Чек лист проверок мобильного приложения, минимум 50 пунктов. Можете сделать отдельные чек листы для проверки конкретных мобильных приложений (Банковское приложение, игра, фитнес, фото, и т.п.)
  2. Чек лист iOS App Store Review Guidelines, 15-20 кейсов -[developer.apple.com](https://developer.apple.com/app-store/review/guidelines/) 
  3. Список обновлений iOS release notes, 15-20 кейсов - [developer.apple.com](developer.apple.com/documentation/ios-ipados-release-notes) 
@@ -13,7 +11,8 @@
 Политика Google Play по спаму - [playacademy.exceedlms.com](https://playacademy.exceedlms.com/student/collection/263275/path/345743/activity/345720)    
 Для тех, кто захочет углубиться в правила для мобильных Андройд приложений. (English) - [play.google.com](https://play.google.com/about/developer-content-policy/)   
 
-## HomeWork 2
+# HomeWork 2 
+**Android**
 1) Собрать приложение на эмуляторе
 2) Собрать приложение на реальном телефоне
 3) Собрать .apk файл и установить на реальном телефоне.
