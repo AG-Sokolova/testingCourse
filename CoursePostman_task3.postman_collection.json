@@ -1,6 +1,6 @@
 {
 	"info": {
-		"_postman_id": "55bf328c-9774-4c3d-a2fc-8b179fab81c5",
+		"_postman_id": "af6bf82c-4386-416b-bec4-55f4293fcb2d",
 		"name": "CoursePostman_task3",
 		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
 	},
@@ -607,6 +607,76 @@
 					"raw": "{{url}}curr_byn",
 					"host": [
 						"{{url}}curr_byn"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "***",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"exec": [
+							"//получить список валют\r",
+							"let array_cur_id = pm.collectionVariables.get(\"arr_CurId\");\r",
+							"\r",
+							"/*\r",
+							"//вывести в консоль массив, элемент, длина массива\r",
+							"console.log(\"массив\", array_cur_id);\r",
+							"console.log(\"первый элемент:\", array_cur_id[1]);\r",
+							"console.log(\"длинна массива\", array_cur_id.length);\r",
+							"*/\r",
+							"\r",
+							"//цикл\r",
+							"for(let i = 0; i < array_cur_id.length; i++){\r",
+							"    postRequest(i);\r",
+							"};\r",
+							"\r",
+							"function postRequest(i){\r",
+							"    pm.sendRequest({\r",
+							"        url: pm.environment.get(\"url\") + \"curr_byn\",\r",
+							"        method: \"POST\",\r",
+							"        body: {\r",
+							"            mode: \"formdata\",\r",
+							"            formdata: [\r",
+							"                {\"key\": \"auth_token\",\r",
+							"                \"value\": pm.environment.get(\"token\")},\r",
+							"                {\"key\": \"curr_code\",\r",
+							"                \"value\": array_cur_id[i]}\r",
+							"            ]\r",
+							"        }\r",
+							"    }, function(err, res){\r",
+							"         if (res.code === 200 && res.json().Cur_OfficialRate !== undefined){\r",
+							"                console.log(\"currency :\", res.json());\r",
+							"            }else if (err){\r",
+							"                console.log(\"err: \",err);\r",
+							"            }\r",
+							"    });\r",
+							"}"
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "auth_token",
+							"value": "{{token}}",
+							"type": "text"
+						}
+					]
+				},
+				"url": {
+					"raw": "{{url}}currency",
+					"host": [
+						"{{url}}currency"
 					]
 				}
 			},
