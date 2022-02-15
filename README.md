@@ -1,4 +1,12 @@
 # Полезные ссылки:
+[losst](https://losst.ru/42-komandy-linux-kotorye-vy-dolzhny-znat)  
+  
+### Postman
+[Test script examples](https://learning.postman.com/docs/writing-scripts/script-references/test-examples/)  
+[Postman JavaScript reference](https://learning.postman.com/docs/writing-scripts/script-references/postman-sandbox-api-reference/)  
+[Фичи Postman, которые облегчат жизнь тестировщика: пошаговая инструкция с видео](https://highload.today/blogs/fichi-postman-kotorye-oblegchat-zhizn-testirovshhika-poshagovaya-instruktsiya-s-video/)  
+[Руководство пользователя Postman](https://onff.ru/rukovodstvo-polzovatielia-postman-kak-ispolzovat-instrumient-dlia-tiestirovaniia-api/)  
+[Шпаргалка по Postman](https://artstroy.net/shpargalka-po-postman/)  
 
 ### Guidelines 
 [Apple Human Interface Guidelines для iOS](https://developer.apple.com/design/human-interface-guidelines/)  
@@ -10,7 +18,7 @@
 ### Основные UI компоненты и жесты
 [ОСНОВНЫЕ UI КОМПОНЕНТЫ ANDROID MATERIAL](https://qaband.com/qa/komponenty-ui-android/)  
 [ЭЛЕМЕНТЫ ИНТЕРФЕЙСА САЙТА](https://borodaboroda.com/blog/elementy-interfejsa-sajta/)  
-[UI-элементы и жесты в мобильных приложениях](https://habr.com/ru/company/youla/blog/540768/) 
-[Справочник iOS дизайна (HIG на русском)](http://miloskiy.com/ios-design-guide-hig-na-russkom/)
+[UI-элементы и жесты в мобильных приложениях](https://habr.com/ru/company/youla/blog/540768/)  
+[Справочник iOS дизайна (HIG на русском)](http://miloskiy.com/ios-design-guide-hig-na-russkom/)  
 
 
