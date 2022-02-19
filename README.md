@@ -23,3 +23,8 @@
 
 ### Charles
 [CHARLES – НАСТРАИВАЕМ ПРОКСИРОВАНИЕ ТРАФИКА С УСТРОЙСТВА](https://qaband.com/qa/charles-configuration/)
+  
+   
+   
+ [Чек-лист тестирования WEB приложений](https://habr.com/ru/post/542422/)
+ [Чек-лист тестирования мобильных приложений](https://habr.com/ru/post/534190/)
