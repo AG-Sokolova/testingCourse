@@ -1,6 +1,6 @@
 # Полезные ссылки:
-[losst](https://losst.ru/42-komandy-linux-kotorye-vy-dolzhny-znat) 
-[Статьи по тестированию](https://www.andreyolegovich.ru/)
+[losst](https://losst.ru/42-komandy-linux-kotorye-vy-dolzhny-znat)  
+[Статьи по тестированию](https://www.andreyolegovich.ru/)  
   
 ### Postman
 [Test script examples](https://learning.postman.com/docs/writing-scripts/script-references/test-examples/)  
