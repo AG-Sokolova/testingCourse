@@ -1,31 +1,54 @@
-# Полезные ссылки:
-[losst](https://losst.ru/42-komandy-linux-kotorye-vy-dolzhny-znat)  
-[Статьи по тестированию](https://www.andreyolegovich.ru/)  
-  
-### Postman
-[Test script examples](https://learning.postman.com/docs/writing-scripts/script-references/test-examples/)  
-[Postman JavaScript reference](https://learning.postman.com/docs/writing-scripts/script-references/postman-sandbox-api-reference/)  
-[Фичи Postman, которые облегчат жизнь тестировщика: пошаговая инструкция с видео](https://highload.today/blogs/fichi-postman-kotorye-oblegchat-zhizn-testirovshhika-poshagovaya-instruktsiya-s-video/)  
-[Руководство пользователя Postman](https://onff.ru/rukovodstvo-polzovatielia-postman-kak-ispolzovat-instrumient-dlia-tiestirovaniia-api/)  
-[Шпаргалка по Postman](https://artstroy.net/shpargalka-po-postman/)  
+# HomeWork
 
-### Guidelines 
-[Apple Human Interface Guidelines для iOS](https://developer.apple.com/design/human-interface-guidelines/)  
-[Material Design для Android](https://material.io/design)  
-  
-### Markdown
-[Краткое руководство по Маркдауну](https://paulradzkov.com/2014/markdown_cheatsheet/)  
-
-### Основные UI компоненты и жесты
-[ОСНОВНЫЕ UI КОМПОНЕНТЫ ANDROID MATERIAL](https://qaband.com/qa/komponenty-ui-android/)  
-[ЭЛЕМЕНТЫ ИНТЕРФЕЙСА САЙТА](https://borodaboroda.com/blog/elementy-interfejsa-sajta/)  
-[UI-элементы и жесты в мобильных приложениях](https://habr.com/ru/company/youla/blog/540768/)  
-[Справочник iOS дизайна (HIG на русском)](http://miloskiy.com/ios-design-guide-hig-na-russkom/)  
-
-### Charles
-[CHARLES – НАСТРАИВАЕМ ПРОКСИРОВАНИЕ ТРАФИКА С УСТРОЙСТВА](https://qaband.com/qa/charles-configuration/)
-  
-### Чек-листы
-[Чек-лист тестирования WEB приложений](https://habr.com/ru/post/542422/)  
-[Чек-лист тестирования мобильных приложений](https://habr.com/ru/post/534190/)  
-[Мобильное тестирование: полное руководство](https://cmsmagazine.ru/journal/items-testing-mobile-apps/)
+ 1. Открыть Chrome DevTools http://itcareer.pythonanywhere.com/
+ 2. Зайти в панель Elements.
+ 3. Найти инспектором кнопку Submit и выровнять слово Submit по центру
+ 4. Включить режим мобильного деввайса (Device Mode)
+ 5. Выставить Dimensions: Responsive 
+ 6. Выбрать Responsive - Mobile
+ 7. Продемонстрировать работу дизайна Responsive
+ 8. Выставить Dimensions: Adaptive (select device).
+ 9. Создать свой девайс.
+ 10. Выставить Throttling low-end mobile
+ 11. Обновить страницу
+ 12. Перевести в ландшафтные режим.
+ 13. Выключить Device Mode
+ 14. Открыть панель Console.
+ 15. Найти 2 сообщения Error в логах
+ 16. Сохранить эти 2 сообщения лога как файл на компьютер.
+ 17. Найти 1 сообщение verbose
+ 18. Пролистать логи Warnings, Info, User Messages.
+ 19. Открыть вкладку Sources.
+ 20. Открыть файл Index
+ 21. Открыть вкладку Network
+ 22. В урле отправить отправить http://162.55.220.72:5005/object_info_3?age=32&salary=1000&name=name
+ 23. Найти лог request/responce  
+ 24. Открыть вкладку Headers
+ 25. Просмотреть General, Response Headers, Request Headers
+ 26. Найти и скопировать в новый текстовый файл header - User-Agent.
+ 27. Открыть вкладку Preview
+ 28. Развернуть все уровни вложенности JSON.
+ 29. Открыть вкладку Application.
+ 30. Развернуть все Storage в левом столбце.
+ 31. Зайти в Cache Storage и Application Cache
+ 32. Там везде будет пусто.
+ 33. Открыть любой сайт который хотите. (Введите урл сайта в адресную строку и нажмите Enter)
+ 34. Откройте вкладку LightHouse
+ 35. Нажмите Generate report
+ 36. Установить в браузер бесплатный AdBlocker
+ 37. Установить в браузер Json Viewer
+ 38. Зайти на сайт https://ksendzov.com (https://ksendzov.com/)
+ 39. Сделать и сохранить скриншот видимой части страницы сайта.
+ 40. Сделать и сохранить скриншот всего сайта.
+ 41. Изменить локацию GPS. Продемонстрировать на сайте Гугл карт.
+ 42. Изменить локацию GPS второй раз. Продемонстрировать на сайте Гугл карт.
+ 43. Найти интерфейс для изменения User-Agent.
+ 44. Подставить другой User-Agent. 
+ 45. Отправить запрос на http://162.55.220.72:5005/object_info_3?age=32&salary=1000&name=name
+ 46. Проверить изменился ли ваш нативный User-Agent на новый, подставленный.
+ 47. Создать свой юзер агент.
+ 48. Повторить пункты 45, 46.
+ 49. Найти интерфейс для изменения/добавления параметров Throttling.
+ 50. Создать свои параметры плохого соединения и проверить как будет загружаться страница.
+ 51. Найти интерфейс для изменения/добавления параметров Locations.
+ 52. Проверить на Google карте как применяются изменения локации.
