@@ -2,7 +2,7 @@
 [Как приручить Charles Proxy?](https://habr.com/ru/company/youla/blog/527648/)  
 [Цифровые сертификаты](https://hd01.ru/info/kak-posmotret-ustanovlennye-sertifikaty-windows-10/)  
 
-#### Установка на Windows для Firefox Mozilla
+#### настройка для Firefox Mozilla
 1. Установить приложение Charles Proxy
 2. Запустить Charles Proxy
 3. Поставить галочку *Proxy > Windows (IOS) Proxy*
@@ -26,7 +26,7 @@
 - *Настройки браузера > Основные > Параметры сети > Настроить > Выбрать "без прокси"*
 - *Параметры ПК > Сеть и интернет > Прокси сервер > Отключить настройки прокси вручную*
 
-#### Установка на Windows для Chrome
+#### настройка для Chrome
 1. Установить приложение Charles Proxy
 2. Запустить Charles Proxy
 3. Поставить галочку *Proxy > Windows (IOS) Proxy*
@@ -46,6 +46,13 @@
 **Отключить прокси:**
 - *Параметры ПК > Сеть и интернет > Прокси сервер > Отключить настройки прокси вручную*
 
-#### Настройка для Android
-1. 
+#### настройка для Android
+1. Установить приложение Charles Proxy
+2. Запустить Charles Proxy
+3. Поставить галочку *Proxy > Windows (IOS) Proxy*
+4. Установить сертификат *Help > SSL Proxying > Install Charles Root Certificate > Установить сертификат > Помещаем в "Доверенные корневые центры сертификации" (для текущего и локального пользователя)*. Должно появиться уведомление об успешном импорте сертификата.
+5. В Charles Proxy перейти "Proxy > SSL Proxying Settings":
+  - поставить галочку *Enable SSL Proxying*
+  - в Include добавить: host <code>*.*</code>, host <code>*</code>, host <code>[]</code>
+6. 
 
