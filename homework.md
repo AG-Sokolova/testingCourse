@@ -2,7 +2,7 @@
 
 **Выполнено:**  
 
-- Collection: [Postman_task1.postman_collection]()
+- Collection: [Postman_task1.postman_collection](https://github.com/AG-Sokolova/testingCourse/blob/postman/%D0%A1oursePostman_task1.postman_collection.json)
 
 ## Задание:
 
@@ -58,8 +58,8 @@
 # HW_2  Postman - scripts
 **Выполнено:**  
 
-- Collection: [Postman_task2.postman_collection]()  
-- Environment: [Postman_task2.postman_environment.json]()
+- Collection: [Postman_task2.postman_collection](https://github.com/AG-Sokolova/testingCourse/blob/postman/task2/%D0%A1oursePostman_task2.postman_collection.json)  
+- Environment: [Postman_task2.postman_environment.json](https://github.com/AG-Sokolova/testingCourse/blob/postman/task2/%D0%A1oursePostman_task2.postman_environment.json)
 
 ## Задание:
 
@@ -157,9 +157,8 @@
 # HW_3 - Postman - scripts
 
 **Выполнено:**
-
-- Collection: [CoursePostman_task3.postman_collection]()
-- Environment: [CoursePostman_task3.postman_environment]()
+- Collection: [CoursePostman_task3.postman_collection](https://github.com/AG-Sokolova/testingCourse/blob/postman/task3/CoursePostman_task3.postman_collection.json)
+- Environment: [CoursePostman_task3.postman_environment](https://github.com/AG-Sokolova/testingCourse/blob/postman/task3/CoursePostman_task3.postman_environment.json)
 
 ## Задание:
 
@@ -267,5 +266,4 @@
 
 
 # Дополнительно
-
-Пометка 1. [Пример кода для тестов]()
+Пометка 1. [Пример кода для тестов](https://github.com/AG-Sokolova/testingCourse/blob/postman/example_1.json)
