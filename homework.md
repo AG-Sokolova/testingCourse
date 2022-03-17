@@ -1,5 +1,5 @@
 # HomeWork 1
-выполнено: [ScriptSQL_task1](https://github.com/AG-Sokolova/testingCourse/blob/sql/ScriptSQL_task1.sql)  
+**выполнено**: [ScriptSQL_task1](https://github.com/AG-Sokolova/testingCourse/blob/sql/ScriptSQL_task1.sql)  
 
 **Подключится к**
 Host: 159.69.151.133  
@@ -43,7 +43,7 @@ Table: students
  32. Вывести id пользователя, имя, дату создания пользователя. Отсортировать по порядку убывания даты добавления пользоватлеля.
  
 # HomeWork 2
-выполнено: [ScriptSQL_task2](https://github.com/AG-Sokolova/testingCourse/blob/sql/ScriptSQL_task2.sql)  
+**выполнено:** [ScriptSQL_task2](https://github.com/AG-Sokolova/testingCourse/blob/sql/ScriptSQL_task2.sql)  
 
 **Таблица employees**  
 1. Создать таблицу employees
@@ -150,7 +150,7 @@ Pass: 123
  31. Вывести имена, должности и ЗП всех специалистов по возрастанию у специалистов у которых ЗП меньше 2300
  32. Вывести имена, должности и ЗП всех специалистов по возрастанию у специалистов у которых ЗП равна 1100, 1500, 2000
 
-#HomeWork 4
+# HomeWork 4
 выполнено: []()  
 
 **Создать таблицы**  
