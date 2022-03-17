@@ -24,7 +24,7 @@
 - *Параметры ПК > Сеть и интернет > Прокси сервер > Отключить настройки прокси вручную*
 			
 #### настройка для мобильного устройства Android
-[](https://docs.telerik.com/fiddler-everywhere/traffic/configure-android)
+[инструкция из официального источника](https://docs.telerik.com/fiddler-everywhere/traffic/configure-android)
 1. Установить программу Fiddler Everywhere
 2. В разделе Live Traffic переключатель Paused переключить в Capturing при помощи переключателя.
 3. В настройках (шестеренка), установить корневой сертификат: *HTTPS > Trust root certificate*
@@ -42,7 +42,7 @@
 - Мобильное устройство: *Свойства сети > Название сети Wi-fi сети > Прокси > Отключить*
 
 #### настройка для мобильного устройства IOS
-[](https://docs.telerik.com/fiddler-everywhere/traffic/configure-ios)
+[инструкция из официального источника](https://docs.telerik.com/fiddler-everywhere/traffic/configure-ios)
 1. Установить программу Fiddler Everywhere
 2. В разделе Live Traffic переключатель Paused переключить в Capturing при помощи переключателя.
 3. В настройках (шестеренка), установить корневой сертификат: *HTTPS > Trust root certificate*
