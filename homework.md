@@ -109,7 +109,7 @@ Table: students
 2. Наполнить таблицу roles_employee 40 строками
 
 # HomeWork 3
-выполнено: [ScriptSQL-task3](https://github.com/AG-Sokolova/testingCourse/blob/sql/ScriptSQL_task3.sql)  
+**выполнено:** [ScriptSQL-task3](https://github.com/AG-Sokolova/testingCourse/blob/sql/ScriptSQL_task3.sql)  
 
 **Подключится к**
 Host: 159.69.151.133  
