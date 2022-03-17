@@ -1,5 +1,5 @@
 # HomeWork 1
-выполнено: [link](https://github.com/AnastasiaSokolov/testingCourse/blob/sql/ScriptSQL_task1.sql)  
+выполнено: [ScriptSQL_task1](https://github.com/AG-Sokolova/testingCourse/blob/sql/ScriptSQL_task1.sql)  
 
 **Подключится к**
 Host: 159.69.151.133  
@@ -43,7 +43,7 @@ Table: students
  32. Вывести id пользователя, имя, дату создания пользователя. Отсортировать по порядку убывания даты добавления пользоватлеля.
  
 # HomeWork 2
-выполнено: [link](https://github.com/AnastasiaSokolov/testingCourse/blob/sql/ScriptSQL_task2.sql)  
+выполнено: [ScriptSQL_task2](https://github.com/AG-Sokolova/testingCourse/blob/sql/ScriptSQL_task2.sql)  
 
 **Таблица employees**  
 1. Создать таблицу employees
@@ -109,7 +109,7 @@ Table: students
 2. Наполнить таблицу roles_employee 40 строками
 
 # HomeWork 3
-выполнено: [link](https://github.com/AnastasiaSokolov/testingCourse/blob/sql/ScriptSQL-task3.sql)  
+выполнено: [ScriptSQL-task3](https://github.com/AG-Sokolova/testingCourse/blob/sql/ScriptSQL_task3.sql)  
 
 **Подключится к**
 Host: 159.69.151.133  
