@@ -41,9 +41,9 @@ auth_token - ${token}
 
 # Homework_2 
 
- **Protocol:** http
- **IP:** 162.55.220.72
- **Port:** 5005
+ **Protocol:** http  
+ **IP:** 162.55.220.72  
+ **Port:** 5005  
 
 #### EP_1
 
