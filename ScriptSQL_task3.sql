@@ -41,21 +41,21 @@
 	select e.employee_name, r.role_name from roles_employee re 
 		join employees e on re.employee_id = e.id 
 		join roles r on re.role_id = r.id 
-		where r.role_name like '% Java %'
+		where r.role_name like '%Java %'
 	;
 	
 -- 8.Вывести имена и должность только Python разработчиков.
 	select e.employee_name, r.role_name from roles_employee re 
 		join employees e on re.employee_id = e.id 
 		join roles r on re.role_id = r.id 
-		where r.role_name like '% Python %'
+		where r.role_name like '%Python %'
 	;
 	
 -- 9.Вывести имена и должность всех QA инженеров.
 	select e.employee_name, r.role_name from roles_employee re 
 		join employees e on re.employee_id = e.id 
 		join roles r on re.role_id = r.id 
-		where r.role_name like '% QA %'
+		where r.role_name like '%QA%'
 	;
 	
 -- 10.Вывести имена и должность ручных QA инженеров.
@@ -73,13 +73,14 @@
 	;
 	
 -- 12.Вывести имена и зарплаты Junior специалистов 
-	select e.employee_name,/* r.role_name,*/ s.monthly_salary from employee_salary es 
-		inner join employees e on es.employee_id = e.id 
-		inner join salary s on es.salary_id = s.id 
-		inner join roles_employee re on es.employee_id = re.employee_id 
-		inner join roles r on re.role_id = r.id
-		where r.role_name like 'Junior %'
+	select employee_name , role_name, monthly_salary  from employee_salary as es
+		right join employees as e on es.employee_id = e.id 
+		left join salary as s on es.salary_id = s.id
+		join roles_employee as re on e.id = re.employee_id 
+		join roles as r on re.role_id = r.id 
+		where role_name like 'Junior %'
 	;
+
 
 	select e.employee_name, s.monthly_salary from employee_salary es 
 		inner join employees e on es.employee_id = e.id 
@@ -92,21 +93,21 @@
 	;
 	
 -- 13.Вывести имена и зарплаты Middle специалистов
-	select e.employee_name,/* r.role_name,*/ s.monthly_salary from employee_salary es 
-		inner join employees e on es.employee_id = e.id 
-		inner join salary s on es.salary_id = s.id 
-		inner join roles_employee re on es.employee_id = re.employee_id 
-		inner join roles r on re.role_id = r.id
-		where r.role_name like 'Middle %'
+	select employee_name , role_name, monthly_salary  from employee_salary as es
+		right join employees as e on es.employee_id = e.id 
+		left join salary as s on es.salary_id = s.id
+		join roles_employee as re on e.id = re.employee_id 
+		join roles as r on re.role_id = r.id 
+		where role_name like 'Middle %'
 	;
 	
 -- 14.Вывести имена и зарплаты Senior специалистов
-	select e.employee_name,/* r.role_name,*/ s.monthly_salary from employee_salary es 
-		inner join employees e on es.employee_id = e.id 
-		inner join salary s on es.salary_id = s.id 
-		inner join roles_employee re on es.employee_id = re.employee_id 
-		inner join roles r on re.role_id = r.id
-		where r.role_name like 'Senior %'
+	select employee_name , role_name, monthly_salary  from employee_salary as es
+		right join employees as e on es.employee_id = e.id 
+		left join salary as s on es.salary_id = s.id
+		join roles_employee as re on e.id = re.employee_id 
+		join roles as r on re.role_id = r.id 
+		where role_name like 'Senior %'
 	;
 	
 -- 15.Вывести зарплаты Java разработчиков
