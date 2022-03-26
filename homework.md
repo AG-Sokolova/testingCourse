@@ -18,6 +18,9 @@
 | GET    | /object_info_3 | name: str<br/>age: int<br/>salary: int |
 | GET    | /object_info_4 | name: str<br/>age: int<br/>salary: int |
 
+
+# Homework_2 
+
 json_extractor
 
 ```
@@ -38,9 +41,7 @@ String auth_token = props.get("token");
 vars.put("token", auth_token);
 auth_token - ${token}
 ```
-
-# Homework_2 
-
+   
  **Protocol:** http  
  **IP:** 162.55.220.72  
  **Port:** 5005  
