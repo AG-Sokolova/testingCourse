@@ -208,7 +208,7 @@ JMeter Plugins Manager - помогает устанавливать плаги�
 5. Запустить тест
 6. Проанализировать результаты теста 
 
-#### Процессор [подробнее](https://coderlessons.com/tutorials/kachestvo-programmnogo-obespecheniia/uchebnik-jmeter/9-protsessor)
+#### PreProcessor [подробнее](https://coderlessons.com/tutorials/kachestvo-programmnogo-obespecheniia/uchebnik-jmeter/9-protsessor)
 Процессор используется для изменения сэмплеров в их области.
 
 
