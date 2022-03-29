@@ -338,7 +338,8 @@ vars.put("token", auth_token);
 - настраиваемое время удержания после запуска всех потоков
 - уменьшить нагрузку порциями
  
-  ##### BeanShell PreProcessor
+
+##### BeanShell PreProcessor
   - Script  
 ```
 String auth_token = props.get("token");
