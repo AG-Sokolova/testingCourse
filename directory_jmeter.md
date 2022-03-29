@@ -310,12 +310,12 @@ Summary Report представляет собой сводную таблицу
  #### Thread group_2
  Добавляем элементы где будет применяться токен
  
- ##### BeanShell PreProcessor
+ ##### BeanShell PreProcessor  
   - Script
-  '''
+```
 String auth_token = props.get("token");
 vars.put("token", auth_token);
-  '''  
+``` 
   
  ##### HTTP Request
   - Что бы вызвать переменную достаточно написать ${name_var} 
@@ -332,10 +332,10 @@ vars.put("token", auth_token);
   - Finally, stop [число] theards (users) every [число] seconds - И, наконец, останавливайте [число] потоков (пользователей) каждые [число] секунд.
  
   ##### BeanShell PreProcessor
-  - Script
-  '''
+  - Script  
+```
 String auth_token = props.get("token");
 vars.put("token", auth_token);
-  ''' 
+```
   ##### HTTP Request
   - Что бы вызвать переменную достаточно написать ${name_var} 
