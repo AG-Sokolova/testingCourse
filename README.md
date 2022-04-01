@@ -1,7 +1,22 @@
-# Полезные ссылки:
+# Темы курса
+
+| Тема                           | Ссылка на ветку                                              |
+| ------------------------------ | ------------------------------------------------------------ |
+| Postman                        | https://github.com/AG-Sokolova/testingCourse/tree/postman    |
+| Charles / Fiddler              | https://github.com/AG-Sokolova/testingCourse/tree/charles_fiddler |
+| DevTools                       | https://github.com/AG-Sokolova/testingCourse/tree/devtools   |
+| Mobile Testing                 | https://github.com/AG-Sokolova/testingCourse/tree/mobil-testing |
+| Git/ GitBash /Linux (terminal) | https://github.com/AG-Sokolova/testingCourse/tree/git        |
+| SQL / DBeaver /Postgres        | https://github.com/AG-Sokolova/testingCourse/tree/sql        |
+| Jmeter                         | https://github.com/AG-Sokolova/testingCourse/tree/jmeter     |
+
+
+
+# Полезные ссылки
+
 [losst](https://losst.ru/42-komandy-linux-kotorye-vy-dolzhny-znat)  
 [Статьи по тестированию](https://www.andreyolegovich.ru/)  
-  
+
 ### Postman
 [Test script examples](https://learning.postman.com/docs/writing-scripts/script-references/test-examples/)  
 [Postman JavaScript reference](https://learning.postman.com/docs/writing-scripts/script-references/postman-sandbox-api-reference/)  
@@ -12,7 +27,7 @@
 ### Guidelines 
 [Apple Human Interface Guidelines для iOS](https://developer.apple.com/design/human-interface-guidelines/)  
 [Material Design для Android](https://material.io/design)  
-  
+
 ### Markdown
 [Краткое руководство по Маркдауну](https://paulradzkov.com/2014/markdown_cheatsheet/)  
 
@@ -24,7 +39,7 @@
 
 ### Charles
 [CHARLES – НАСТРАИВАЕМ ПРОКСИРОВАНИЕ ТРАФИКА С УСТРОЙСТВА](https://qaband.com/qa/charles-configuration/)
-  
+
 ### Чек-листы
 [Чек-лист тестирования WEB приложений](https://habr.com/ru/post/542422/)  
 [Чек-лист тестирования мобильных приложений](https://habr.com/ru/post/534190/)  
