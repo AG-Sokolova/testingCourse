@@ -1,17 +1,3 @@
-# Темы курса
-
-| Тема                           | Ссылка на ветку                                              |
-| ------------------------------ | ------------------------------------------------------------ |
-| Postman                        | https://github.com/AG-Sokolova/testingCourse/tree/postman    |
-| Charles / Fiddler              | https://github.com/AG-Sokolova/testingCourse/tree/charles_fiddler |
-| DevTools                       | https://github.com/AG-Sokolova/testingCourse/tree/devtools   |
-| Mobile Testing                 | https://github.com/AG-Sokolova/testingCourse/tree/mobil-testing |
-| Git/ GitBash                   | https://github.com/AG-Sokolova/testingCourse/tree/git        |
-| SQL / DBeaver /Postgres        | https://github.com/AG-Sokolova/testingCourse/tree/sql        |
-| Jmeter                         | https://github.com/AG-Sokolova/testingCourse/tree/jmeter     |
-
-
-
 # Полезные ссылки
 
 [losst](https://losst.ru/42-komandy-linux-kotorye-vy-dolzhny-znat)  
