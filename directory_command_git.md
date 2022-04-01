@@ -1,8 +1,9 @@
 # Основные Git команды
 
-#### источники: 
 - https://git-scm.com/book/ru/v2  
 - https://proglib.io/p/git-cheatsheet 
+
+
 
 **git add** - добавляет содержимое рабочей директории в индекс (staging area) для последующего коммита.    
 **git commit -m “текст”** - добавление комментария  
@@ -16,6 +17,7 @@
 **git branch** - показывает все созданные ветки (локально)  
 **git branch [имя]** - создает ветку  
 **git checkout** - перейти в ветку  
+
 **git merge** - используется для слияния одной или нескольких веток в текущую. Затем она устанавливает указатель текущей ветки на результирующий коммит.  
 
 **git branch -m [oldname] [newname]** - изменить имя ветки  
@@ -23,17 +25,18 @@
 
 # SSH ключ с помощью git
 
-#### источники: 
 - https://htmlacademy.ru/blog/boost/frontend/git-console 
 - https://htmlacademy.ru/blog/boost/frontend/version-control-system
 - https://htmlacademy.ru/blog/boost/frontend/first-aid-git
 - https://htmlacademy.ru/blog/boost/tools/useful-commands-for-working-with-git 
 
+
+
 Команда **$ git config --global user.name Ваше имя** - добавляет имя.  
 Команда **$ git config --global user.email адрес** - добавляет адрес.  
 Имя и адрес будут указаны в комментариях.  
 
-В случае если уже присвоены имя и адрес, то мож**но посмотреть в глобальном конфигурационном файле:  
+В случае если уже присвоены имя и адрес, то можно посмотреть в глобальном конфигурационном файле:  
 команда **$ git config --global --edit** - открывает конфигурационный файл в режиме редактирования.  
 команда **$ git config --global --list** - открывает в режиме просмотра.  
 
@@ -58,9 +61,11 @@
 Примечание: для клонирования необходимо SSH репозитория (перейти в репозиторий → скопировать ssh ключ) 
 
 # SSH ключ с помощью PuTTY
-#### источники: 
 - https://losst.ru/kak-polzovatsya-putty
+
 - https://www.putty.org/
+
+  
 
 1. запустить программу Puttygen
 2. в программе выбрать RSA и 2048
