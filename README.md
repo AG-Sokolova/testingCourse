@@ -1,31 +1,11 @@
-# Полезные ссылки:
-[losst](https://losst.ru/42-komandy-linux-kotorye-vy-dolzhny-znat)  
-[Статьи по тестированию](https://www.andreyolegovich.ru/)  
-  
-### Postman
-[Test script examples](https://learning.postman.com/docs/writing-scripts/script-references/test-examples/)  
-[Postman JavaScript reference](https://learning.postman.com/docs/writing-scripts/script-references/postman-sandbox-api-reference/)  
-[Фичи Postman, которые облегчат жизнь тестировщика: пошаговая инструкция с видео](https://highload.today/blogs/fichi-postman-kotorye-oblegchat-zhizn-testirovshhika-poshagovaya-instruktsiya-s-video/)  
-[Руководство пользователя Postman](https://onff.ru/rukovodstvo-polzovatielia-postman-kak-ispolzovat-instrumient-dlia-tiestirovaniia-api/)  
-[Шпаргалка по Postman](https://artstroy.net/shpargalka-po-postman/)  
+**В рамках курса изучено:** Charles (настройка для Firefox Mozilla, настройка для Chrome, настройка на мобильное устройство, Breakpoint, Rewrite), Fiddler Everywhere (настройка в браузерах, настройка на мобильное устройство, Rules)
 
-### Guidelines 
-[Apple Human Interface Guidelines для iOS](https://developer.apple.com/design/human-interface-guidelines/)  
-[Material Design для Android](https://material.io/design)  
-  
-### Markdown
-[Краткое руководство по Маркдауну](https://paulradzkov.com/2014/markdown_cheatsheet/)  
+**Инструменты:** Charles Proxy, Fiddler Everywhere
 
-### Основные UI компоненты и жесты
-[ОСНОВНЫЕ UI КОМПОНЕНТЫ ANDROID MATERIAL](https://qaband.com/qa/komponenty-ui-android/)  
-[ЭЛЕМЕНТЫ ИНТЕРФЕЙСА САЙТА](https://borodaboroda.com/blog/elementy-interfejsa-sajta/)  
-[UI-элементы и жесты в мобильных приложениях](https://habr.com/ru/company/youla/blog/540768/)  
-[Справочник iOS дизайна (HIG на русском)](http://miloskiy.com/ios-design-guide-hig-na-russkom/)  
+| описание                   | ссылка                                                       |
+| -------------------------- | ------------------------------------------------------------ |
+| Подсказки по Charles       | [directory_charles_proxy.md](https://github.com/AG-Sokolova/testingCourse/blob/charles_fiddler/directory_charles_proxy.md) |
+| Подсказки по Fiddler       | [directory_fiddler_proxy.md](https://github.com/AG-Sokolova/testingCourse/blob/charles_fiddler/directory_fiddler_proxy.md) |
+| Задание в рамках курса     | [homework.md](https://github.com/AG-Sokolova/testingCourse/blob/charles_fiddler/homework.md) |
+| Файлы выполненного задания | [hw_charles](https://github.com/AG-Sokolova/testingCourse/tree/charles_fiddler/hw_charles)<br>[hw_fiddler](https://github.com/AG-Sokolova/testingCourse/tree/charles_fiddler/hw_fiddler) |
 
-### Charles
-[CHARLES – НАСТРАИВАЕМ ПРОКСИРОВАНИЕ ТРАФИКА С УСТРОЙСТВА](https://qaband.com/qa/charles-configuration/)
-  
-### Чек-листы
-[Чек-лист тестирования WEB приложений](https://habr.com/ru/post/542422/)  
-[Чек-лист тестирования мобильных приложений](https://habr.com/ru/post/534190/)  
-[Мобильное тестирование: полное руководство](https://cmsmagazine.ru/journal/items-testing-mobile-apps/)
