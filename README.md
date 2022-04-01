@@ -4,7 +4,7 @@
 
 
 
-| Описание                  | ссылка                                                       |
+| описание                  | ссылка                                                       |
 | ------------------------- | ------------------------------------------------------------ |
 | Подсказки по Postman      | [directory_postman.md](https://github.com/AG-Sokolova/testingCourse/blob/postman/directory_postman.md)|
 | Задание в рамках курса    | [homework.md](https://github.com/AG-Sokolova/testingCourse/blob/postman/homework.md) |
