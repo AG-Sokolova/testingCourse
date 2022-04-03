@@ -6,5 +6,5 @@
 | -------------------------- | ------------------------------------------------------------ |
 | Подсказки по Jmeter        | [directory_jmeter.md](https://github.com/AG-Sokolova/testingCourse/blob/jmeter/directory_jmeter.md) |
 | Задание в рамках курса     | [/homework.md](https://github.com/AG-Sokolova/testingCourse/blob/jmeter/homework.md) |
-| Файлы выполненного задания | [task_1]()<br>[task_2]()                                     |
+| Файлы выполненного задания | [task_1](https://github.com/AG-Sokolova/testingCourse/tree/jmeter/HW_1)<br>[task_2](https://github.com/AG-Sokolova/testingCourse/blob/jmeter/Homework_2.jmx) |
 
