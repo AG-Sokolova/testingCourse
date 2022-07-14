@@ -2,10 +2,10 @@
 
 **Инструменты**: Android Studio
 
-| описание                                                     | ссылка |
-| ------------------------------------------------------------ | ------ |
-| Подсказки по Andrioid Studio                                 |        |
-| Подсказки по тестированию: скорости нагрева девайса, reconnect, прерываний, ориентации, установки/удаления/обновления |        |
+| описание                                                     | ссылка                                                       |
+| ------------------------------------------------------------ | ------------------------------------------------------------ |
+| Подсказки по Andrioid Studio                                 | [directory_android_studio](https://github.com/AG-Sokolova/testingCourse/blob/mobil-testing/directory_android_studio.md) |
+| Подсказки по тестированию: скорости нагрева девайса, reconnect, прерываний, ориентации, установки/удаления/обновления | [directory_chitlist](https://github.com/AG-Sokolova/testingCourse/blob/mobil-testing/directory_chitlist.md) |
 
 **Чек-листы проверок**
 
@@ -18,10 +18,10 @@
 
 **Тестирование приложения ToDo List**
 
-| описание                                                     | ссылка                                                       |
-| ------------------------------------------------------------ | ------------------------------------------------------------ |
-| План тестирования                                            | [google документ](https://docs.google.com/document/d/1eGatAfNQhENbH-I7yE49G9e-XEv62LjrsKHJMEXobwI/edit?usp=sharing) |
-| Чек-листы проверок                                           | [google таблица](https://docs.google.com/spreadsheets/d/1J1mKJywjh2watYfWQIs_Rkn7yKr28ubn0KjoSFhJqcY/edit?usp=sharing) |
-| Заведение BugReport                                          | [google таблица](https://docs.google.com/spreadsheets/d/1H2lu3sVPozNFXL7iqJc4Vei-oPcKlWWoTRhRr7KZ_Jo/edit?usp=sharing) |
-| Изучение приложений конкурентов и предложения по улучшению приложения | [google таблица](https://docs.google.com/spreadsheets/d/1AKzm0oLOGZffB8AcIrlgPIuHZ5vhQHM7uDI0dxWdbEo/edit?usp=sharing) |
-| Отчет о тестировании                                         | [google документ](https://docs.google.com/document/d/1WTfpL8BDXtOa5A_CGFTVziidVSNSCItfqYOw2RpQXtU/edit?usp=sharing) |
+| описание                            | ссылка                                                       |
+| ----------------------------------- | ------------------------------------------------------------ |
+| План тестирования                   | [google документ](https://docs.google.com/document/d/1eGatAfNQhENbH-I7yE49G9e-XEv62LjrsKHJMEXobwI/edit?usp=sharing) |
+| Чек-листы проверок                  | [google таблица](https://docs.google.com/spreadsheets/d/1J1mKJywjh2watYfWQIs_Rkn7yKr28ubn0KjoSFhJqcY/edit?usp=sharing) |
+| Заведение BugReport                 | [google таблица](https://docs.google.com/spreadsheets/d/1H2lu3sVPozNFXL7iqJc4Vei-oPcKlWWoTRhRr7KZ_Jo/edit?usp=sharing) |
+| Предложения по улучшению приложения | [google таблица](https://docs.google.com/spreadsheets/d/1AKzm0oLOGZffB8AcIrlgPIuHZ5vhQHM7uDI0dxWdbEo/edit?usp=sharing) |
+| Отчет о тестировании                | [google документ](https://docs.google.com/document/d/1WTfpL8BDXtOa5A_CGFTVziidVSNSCItfqYOw2RpQXtU/edit?usp=sharing) |
