@@ -18,10 +18,14 @@
 [Краткое руководство по Маркдауну](https://paulradzkov.com/2014/markdown_cheatsheet/)  
 
 ### Основные UI компоненты и жесты
+[Контур Гайды](https://guides.kontur.ru/)  
+
 [ОСНОВНЫЕ UI КОМПОНЕНТЫ ANDROID MATERIAL](https://qaband.com/qa/komponenty-ui-android/)  
 [ЭЛЕМЕНТЫ ИНТЕРФЕЙСА САЙТА](https://borodaboroda.com/blog/elementy-interfejsa-sajta/)  
 [UI-элементы и жесты в мобильных приложениях](https://habr.com/ru/company/youla/blog/540768/)  
 [Справочник iOS дизайна (HIG на русском)](http://miloskiy.com/ios-design-guide-hig-na-russkom/)  
+
+
 
 ### Charles
 [CHARLES – НАСТРАИВАЕМ ПРОКСИРОВАНИЕ ТРАФИКА С УСТРОЙСТВА](https://qaband.com/qa/charles-configuration/)
