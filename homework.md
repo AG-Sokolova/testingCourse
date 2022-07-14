@@ -12,7 +12,8 @@
 Для тех, кто захочет углубиться в правила для мобильных Андройд приложений. (English) - [play.google.com](https://play.google.com/about/developer-content-policy/)   
 
 # HomeWork 2 
-**Android** [приложение](https://github.com/AG-Sokolova/android_ToDoList)
+**Android** 
+
 1) Собрать приложение на эмуляторе
 2) Собрать приложение на реальном телефоне
 3) Собрать .apk файл и установить на реальном телефоне.
@@ -22,7 +23,8 @@
 7) Сооздать End-to-End сценарии тестирования приложения ToDo List
 
 # HomeWork 3
-**Android** [приложение](https://github.com/AG-Sokolova/android_reminder)
+**Android** 
+
 1) Собрать приложение на эмуляторе
 2) Собрать приложение на реальном телефоне
 3) Собрать .apk файл и установить на реальном телефоне.
